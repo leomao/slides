@@ -1,0 +1,36 @@
+extends ./layout.pug
+include ./mixin.pug
+
+//-block latex_settings
+  //-| \( 
+  //-|   \newcommand{\abs}[1]{\left\lvert #1 \right\rvert}
+  //-|   \newcommand{\norm}[1]{\left\lVert #1 \right\rVert}
+  //-|   \newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+  //-|   \newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}
+  //-|   \newcommand{\argmax}{\operatorname{arg\,max}}
+  //-| \)
+
+block slides
+  section
+    h1 Sample Lecture
+    p
+      .small Created by LeoMao
+
+  section
+    +mdslide.
+      ## Outline
+      - One
+      - Two
+      - Three
+
+    +slide(data-markdown=true).
+      ## Something More?
+      - Four
+      - Five
+      - Six
+
+  section
+    +slide
+      h2 First of All
+      p.
+        $$\int f(x)\, dx$$

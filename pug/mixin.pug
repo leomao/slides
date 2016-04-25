@@ -1,0 +1,22 @@
+mixin slide
+  section&attributes(attributes)
+    if !!attributes['data-markdown']
+      script(type="text/template")
+        block
+    else
+       block
+
+mixin mdslide
+  section(data-markdown)
+    script(type="text/template")
+      block
+
+mixin inline
+  span
+    code&attributes(attributes)
+      block
+
+mixin code
+  pre
+    code(data-trim)&attributes(attributes)
+      block

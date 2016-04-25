@@ -1,0 +1,20 @@
+.reveal img {
+    border: medium none !important;
+    border-radius: 2pt !important;
+}
+
+.reveal .inline-block {
+    display: inline-block;
+}
+
+.reveal .nowrap {
+    white-space: nowrap;
+}
+
+.reveal .x3 {
+    width: 30%;
+}
+
+.reveal .x2 {
+    width: 45%;
+}

@@ -17,8 +17,11 @@ View the slides at `localhost:3000`.
 
 ## Troubleshooting
 ### Can't push into another repository
-See http://stackoverflow.com/questions/11375070/pushing-to-github-after-a-shallow-clone
-or http://stackoverflow.com/questions/6900103/why-cant-i-push-from-a-shallow-clone 
+Some references:
+- http://stackoverflow.com/questions/11375070/pushing-to-github-after-a-shallow-clone
+- http://stackoverflow.com/questions/6900103/why-cant-i-push-from-a-shallow-clone 
+- http://stackoverflow.com/questions/28983842/remote-rejected-shallow-update-not-allowed-after-changing-git-remote-url
+
 To push this into another repository, you may need to:
 
 ```console

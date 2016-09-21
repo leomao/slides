@@ -10,10 +10,10 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-connect": "^4.0.0",
+    "gulp-connect": "^5.0.0",
     "gulp-livereload": "^3.8.1",
     "gulp-plumber": "^1.1.0",
-    "gulp-pug": "^3.0.3",
+    "gulp-pug": "^3.0.4",
     "gulp-rename": "^1.2.2"
   }
 }
